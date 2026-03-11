@@ -46,6 +46,9 @@ nmake tests
 #1 If you edit **profilingapi.h** nmake won't work first time so you'll need to do nmake, then another nmake  
 #2 Some of the name tests will fail (don't worry, they are meant to, nothing to do with the profiling API)
 
+**DLL**  
+If you're unable to modify and build the Perl source code we've provided a compiled DLL for you in **perl512dll.zip**.
 
+To install, simply copy this DLL over the top of your existing **Perl512.dll** in your Perl 5.12.3 directory.
 
 
